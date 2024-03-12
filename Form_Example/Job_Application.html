@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <style>
+        body{
+            font-size: 12px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        .submit{
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Job Application Form</h2>
+    </div>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Basic Details</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="first name">First Name:</label>
+                            <input type="text" name="Name" id="Name">
+                        </td>
+                        <td>
+                            <label for="last name">Last Name:</label>
+                            <input type="text" name="Name" id="Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Designation">Designation:</label>
+                            <input type="text" name="Designation" id="Designation">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                            <input type="email" name="Email" id="Email">
+                        </td>
+                        <td>
+                            <label for="Phone Number">Phone Number</label>
+                            <input type="number" name="PhoneNo" id="PNo">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Address">Address 1:</label>
+                            <textarea name="address" id="address" cols="25" rows="10"></textarea>
+                        </td>
+                        <td>
+                            <label for="Address">Address 2:</label>
+                            <textarea name="address" id="address" cols="25" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="city">City:</label>
+                            <input type="text" name="city" id="city">
+                        </td>
+                        <td>
+                            <label for="state">State:</label>
+                            <input type="text" name="state" id="state">
+                        </td>
+                        <td>
+                            <label for="zipcode">Zipcode</label>
+                            <input type="text" name="zipcode" id="zipcode">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="gender">Gender</label>
+                            <input type="radio" name="gender" id="gender"><label for="male">Male</label>
+                            <input type="radio" name="gender" id="gender"><label for="female">Female</label>
+                        </td>
+                        <td>
+                            <label for="relation-ship">RelationShip Status:</label>
+                            <select name="status" id="status">
+                                <option value="1">Choose Status:</option>
+                                <option value="single">Unmerried</option>
+                                <option value="Mingle">Merried</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="DOB">Date of Birth:</label>
+                            <input type="date" name="DOB" id="dob" >
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Education Details</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="ssc">SSC Result:</label>
+                        </td>
+                        <td>
+                            <label for="nob">Name of Board</label>
+                            <input type="text" name="nob" id="nob">
+                        </td>
+                        <td>
+                            <label for="py">Passing Year:</label>
+                            <input type="number" name="py" id="py">
+                        </td>
+                        <td>
+                            <label for="per">Percentage:</label>
+                            <input type="number" name="per" id="per">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="hsc">HSC Result:</label>
+                        </td>
+                        <td>
+                            <label for="nob">Name of Board</label>
+                            <input type="text" name="nob" id="nob">
+                        </td>
+                        <td>
+                            <label for="py">Passing Year:</label>
+                            <input type="number" name="py" id="py">
+                        </td>
+                        <td>
+                            <label for="per">Percentage:</label>
+                            <input type="number" name="per" id="per">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="btech">Bachelor Degree:</label>
+                        </td>
+                        <td>
+                            <label for="cn">Course Name</label>
+                            <input type="text" name="nob" id="nob">
+                        </td>
+                        <td>
+                            <label for="university">University:</label>
+                            <input type="text" name="university" id="university">
+                        </td>
+                        <td>
+                            <label for="py">Passing Year:</label>
+                            <input type="number" name="py" id="py">
+                        </td>
+                        <td>
+                            <label for="per">Percentage:</label>
+                            <input type="number" name="per" id="per">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="mtech">Master Degree:</label>
+                        </td>
+                        <td>
+                            <label for="cn">Course Name</label>
+                            <input type="text" name="nob" id="nob">
+                        </td>
+                        <td>
+                            <label for="university">University:</label>
+                            <input type="text" name="university" id="university">
+                        </td>
+                        <td>
+                            <label for="py">Passing Year:</label>
+                            <input type="number" name="py" id="py">
+                        </td>
+                        <td>
+                            <label for="per">Percentage:</label>
+                            <input type="number" name="per" id="per">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Work Experience</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="companyName">Company Name:</label>
+                            <input type="text" name="companyName" id="companyName">
+                        </td>
+                        <td>
+                            <label for="Designation">Designation:</label>
+                            <input type="text" name="Designation" id="Designation">
+                        </td>
+                        <td>
+                            <label for="from">From:</label>
+                            <input type="date" name="from" id="from">
+                        </td>
+                        <td>
+                            <label for="to">To:</label>
+                            <input type="date" name="to" id="to">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="companyName">Company Name:</label>
+                            <input type="text" name="companyName" id="companyName">
+                        </td>
+                        <td>
+                            <label for="Designation">Designation:</label>
+                            <input type="text" name="Designation" id="Designation">
+                        </td>
+                        <td>
+                            <label for="from">From:</label>
+                            <input type="date" name="from" id="from">
+                        </td>
+                        <td>
+                            <label for="to">To:</label>
+                            <input type="date" name="to" id="to">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="companyName">Company Name:</label>
+                            <input type="text" name="companyName" id="companyName">
+                        </td>
+                        <td>
+                            <label for="Designation">Designation:</label>
+                            <input type="text" name="Designation" id="Designation">
+                        </td>
+                        <td>
+                            <label for="from">From:</label>
+                            <input type="date" name="from" id="from">
+                        </td>
+                        <td>
+                            <label for="to">To:</label>
+                            <input type="date" name="to" id="to">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <fieldset>
+                            <legend>Languages Known</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="lng" id="lng"><label for="lng">Hindi</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Read</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Write</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Speak</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="lng" id="lng"><label for="lng">English</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Read</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Write</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Speak</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="lng" id="lng"><label for="lng">Gujrati</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Read</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Write</label>
+                                    </td><td>
+                                        <input type="checkbox" name="lng-level" id="lng-level"><label for="lng">Speak</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                    <td>
+                        <fieldset>
+                            <legend>Technologies You Known</legend>
+                            <table>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="tyk" id="tyk">
+                                        <label for="technology">PHP</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Beginer</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Mideator</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Expert</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="tyk" id="tyk">
+                                        <label for="technology">MySQL</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Beginer</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Mideator</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Expert</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="tyk" id="tyk">
+                                        <label for="technology">Laravel</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Beginer</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Mideator</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Expert</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <input type="checkbox" name="tyk" id="tyk">
+                                        <label for="technology">Oracle</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Beginer</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Mideator</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" name="level" id="level">
+                                        <label for="level">Expert</label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </fieldset>
+                    </td>
+                </tr>
+            </table>
+            <fieldset>
+                <legend>Reference Contact</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                            <input type="text" name="naem" id="name">
+                        </td>
+                        <td>
+                            <label for="number">Contact No.:</label>
+                            <input type="number" name="no" id="no">
+                        </td>
+                        <td>
+                            <label for="relation">Relation</label>
+                            <input type="text" name="relation" id="relation">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Name:</label>
+                            <input type="text" name="naem" id="name">
+                        </td>
+                        <td>
+                            <label for="number">Contact No.:</label>
+                            <input type="number" name="no" id="no">
+                        </td>
+                        <td>
+                            <label for="relation">Relation</label>
+                            <input type="text" name="relation" id="relation">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend>Preferances</legend>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="location">Prefered Location:</label>
+                            <select name="city" id="city">
+                                <option value="1">Ahmedabad</option>
+                                <option value="2">Rajkot</option>
+                                <option value="3">Pune</option>
+                                <option value="4">benglure</option>
+                            </select>
+                        </td>
+                        <td>
+                            <label for="department">Department</label>
+                            <select name="dept" id="dept">
+                                <option value="1">SDL</option>
+                                <option value="2">Mobile Developer</option>
+                                <option value="3">BDE</option>
+                                <option value="4">Java Developer</option>
+                                <option value="5">Python Developer</option>
+                                <option value="6">UI/UX Designer</option>
+                                <option value="7">BA</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="np">Notice Period:</label>
+                            <input type="text" name="np" id="np">
+                        </td>
+                        <td>
+                            <label for="ectc">Expected CTE:</label>
+                            <input type="text" name="ectc" id="ectc">
+                        </td>
+                        <td>
+                            <label for="cctc">Current CTC:</label>
+                            <input type="text" name="cctc" id="cctc">
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <div class="submit">
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
