@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Table</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Email</td>
+            <td>phoneNo</td>
+            <td>address</td>
+            <td>Gender</td>
+            <td>Hobbies</td>
+            <td>Age</td>
+            <td>Action</td>
+        </tr>
+        <% for(let index = 0; index < data.length; index++) { %>
+            <tr>
+                <td><%= data[index].id %></td>
+                <td><%= data[index].name%></td>
+                <td><%= data[index].email%></td>
+                <td><%= data[index].phoneNo%></td>
+                <td><%= data[index].address%></td>
+                <td><%= data[index].Gender%></td>
+                <td><%= data[index].Hobbies%></td>
+                <td><%= data[index].age%></td>
+                <td><a href="/<%=data[index].id%>">DELETE</a></td>
+            </tr>
+        <% } %>
+    </table>
+    <div style="padding-top: 30px;">
+        <a href="/table">Drop Table</a>
+    </div>
+</body>
+</html>
