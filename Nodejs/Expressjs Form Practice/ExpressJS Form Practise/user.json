@@ -1,0 +1,74 @@
+[
+  {
+    "fname": "raj",
+    "lname": "koradiya",
+    "age": "21",
+    "number": "9722887770",
+    "email": "raj@gmail.com",
+    "address": "shapur",
+    "gender": "male",
+    "hobbies": ["Reading", "Cricket", "Vollyball"],
+    "submit": "SUBMIT",
+    "id": "d5653781-1fa2-4302-8b93-a52778b28b20"
+  },
+  {
+    "fname": "alpesh",
+    "lname": "prajapati",
+    "age": "22",
+    "number": "9758446584",
+    "email": "alpesh@gmail.com",
+    "address": "ahmedabad",
+    "gender": "male",
+    "hobbies": ["Cricket", "Vollyball", "History"],
+    "submit": "SUBMIT",
+    "id": "777e2537-b2c1-418e-ac49-5ec95d110feb"
+  },
+  {
+    "fname": "hardev",
+    "lname": "Zala",
+    "age": "20",
+    "number": "7852963415",
+    "email": "hardev@gmail.com",
+    "address": "surendranagar",
+    "gender": "male",
+    "hobbies": ["Cricket", "Vollyball", "History"],
+    "submit": "SUBMIT",
+    "id": "c25ea15f-ac2e-4262-8c72-d18639b41b73"
+  },
+  {
+    "fname": "raj",
+    "lname": "koradiya",
+    "age": "21",
+    "number": "7852963415",
+    "email": "raj@gmail.com",
+    "address": "shapur",
+    "gender": "male",
+    "hobbies": ["Reading", "Cricket"],
+    "submit": "SUBMIT",
+    "id": "3ab7b9f1-ad28-4e88-af37-4b8c05a27499"
+  },
+  {
+    "fname": "raj",
+    "lname": "koradiya",
+    "age": "21",
+    "number": "9722887770",
+    "email": "raj@gmail.com",
+    "address": "shapur",
+    "gender": "male",
+    "hobbies": ["Reading", "Cricket"],
+    "submit": "SUBMIT",
+    "id": "de297610-a7a2-43c5-9a04-7eba9ee166c2"
+  },
+  {
+    "fname": "Raj",
+    "lname": "Koradiya",
+    "age": "21",
+    "number": "9722887770",
+    "email": "rajmakvana312@gmail.com",
+    "address": "Makvana street,near swaminarayan temple, shapur(sorath)",
+    "gender": "male",
+    "hobbies": ["Reading", "Cricket", "Vollyball"],
+    "submit": "SUBMIT",
+    "id": "bfe7a11a-3ea2-43fd-8bc9-0cfdbc3d1cf6"
+  }
+]
